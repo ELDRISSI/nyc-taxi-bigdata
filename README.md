@@ -43,7 +43,6 @@ bash sqoop/import_zone_lookup.sh
 
 ### 3. Création des tables Hive
 ```bash
-hive -f hive/01_create_database.hql
 hive -f hive/02_create_external_table.hql
 hive -f hive/03_create_clean_table.hql
 hive -f hive/04_create_view.hql
