@@ -1,0 +1,14 @@
+
+# HBase : Création de la table zone_stats
+
+# Execution : hbase shell < hbase/create_table.hbase
+
+
+# Créer la table avec une column family 'info'
+create 'zone_stats', 'info'
+
+# Vérifier
+list
+
+# Décrire la structure
+describe 'zone_stats'
