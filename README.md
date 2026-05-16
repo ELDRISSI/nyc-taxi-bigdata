@@ -19,7 +19,7 @@ nyc-taxi-bigdata/
 ├── script/
 |       └── parquet_to_mysql.py   script pour importer le fichier yellow_tripdata_2025-01.parquet vers Mysql
 |       └── csv_to_mysql.py   script pour importer le fichier zone_lookup vers Mysql
-|       └── parquet_to_mysql.py                 
+|                      
 ├── sqoop/                        scripts d'import MySQL vers HDFS
 ├── hive/                         création des tables
 │   └── queries/                  toutes les requêtes HQL
@@ -35,7 +35,7 @@ nyc-taxi-bigdata/
 python3 parquet_to_mysql.py
 python3 zone_lookup_to_mysql.py
 ```
-### 2. Import MySQL → HDFS
+### 2. Import MySQL vers HDFS
 ```bash
 bash sqoop/import_yellow_taxi.sh
 bash sqoop/import_zone_lookup.sh
